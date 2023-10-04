@@ -1,0 +1,17 @@
+name: VardewStalley
+version: 0.01
+api: 5.0.0
+main: skyss0fly/VardewStalley/Loader
+author: skyss0fly
+
+permissions:
+VardewStalley.setup:
+default: op
+description: "Allows you to setup the Plugin!
+"
+
+commands:
+vssetup:
+default: op
+permission: VardewStalley.setup
+description: "Setup VardewStalley"
